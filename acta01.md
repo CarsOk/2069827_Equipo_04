@@ -27,7 +27,7 @@ CL 30 # 3E – 164 BARRANQUILLA, ATLANTICO
 Debatir los distintos campos al cual podemos presentar nuestro trabajo
 de acuerdo a los conocimientos o experiencias que tengamos de este.
 
-##DESARROLLO DE LA REUNIÓN
+## DESARROLLO DE LA REUNIÓN
 Luego de varios minutos de conversación, se dio a conocer lo siguiente.
 
     1.	Tres de los aprendices del grupo, aportan  la idea de trabajar en el campo comercial,
