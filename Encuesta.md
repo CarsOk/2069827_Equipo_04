@@ -1,6 +1,6 @@
 ## Encuesta.
 
-## Señor(a) Empresario(a):
+### Señor(a) Empresario(a):
 
 Agradecemos su tiempo para responder estas preguntas, las cuales permitirán, a nosotros como aprendices SENA, identificar las necesidades de su empresa, con el fin de mejorar el nivel de eficiencia y desarrollo de ella.
 
