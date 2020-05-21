@@ -10,5 +10,7 @@ Base De Datos y Sitio Web Costa.
 ## 2. Estadisticas
   
 2.1 [Encuesta](https://github.com/CarsOk/2069827_Equipo_04/blob/master/Encuesta.md)
+
+## 3. Especificaciones de requerimiento.
     
-   [especificaciones de requerimientos](https://github.com/CarsOk/2069827_Equipo_04/commit/7e532f83465c91fe09734b7870da61eadc52192e)
+   3.1 [especificaciones de requerimientos](https://github.com/CarsOk/2069827_Equipo_04/commit/7e532f83465c91fe09734b7870da61eadc52192e)
