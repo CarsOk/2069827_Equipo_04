@@ -44,7 +44,7 @@ Luego de varios minutos de conversación, se dio a conocer lo siguiente.
 
 # COMPROMISOS.
 
-Escoger una empresa para presentar nuestro proyecto y proseguir realizando  una encuesta para analizar e identificar alguna falencia el cual podamos solucionar.
+Escoger una empresa para presentar nuestro proyecto y proseguir realizando  una encuesta y en base a esta, analizar e identificar alguna falencia el cual podamos solucionar.
 
      * DISTRIBUSCIONES Y DIDATICO DE LA COSTA.
       (Jorge Gonzalez)
