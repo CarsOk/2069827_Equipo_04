@@ -1,6 +1,6 @@
-##Encuesta.
+## Encuesta.
 
-#Señor(a) Empresario(a):
+### Señor(a) Empresario(a):
 
 Agradecemos su tiempo para responder estas preguntas, las cuales permitirán, a nosotros como aprendices SENA, identificar las necesidades de su empresa, con el fin de mejorar el nivel de eficiencia y desarrollo de ella.
 
@@ -9,9 +9,9 @@ Agradecemos su tiempo para responder estas preguntas, las cuales permitirán, a 
 2.	Sector a la que pertenece la empresa:
 
 3.	Clasificación de la empresa según su tamaño:
--Mediana Empresa
--Pequeña empresa
--Famiempresa
+- Mediana Empresa
+- Pequeña empresa
+- Famiempresa
 
 4.	Nombre de la persona encargada de ella:
 
@@ -29,9 +29,9 @@ Agradecemos su tiempo para responder estas preguntas, las cuales permitirán, a 
 
 11.	Si su respuesta es SI, ¿en qué áreas las ha solicitado?
 
--Distribución
--Comercialización
--Publicidad
+- Distribución
+- Comercialización
+- Publicidad
 
 12.	¿Cuáles crees que son los servicios que complementarían su labor de ventas en su empresa?
 
