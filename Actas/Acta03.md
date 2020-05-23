@@ -28,8 +28,11 @@ Luego de varios minutos de conversación, recogimos datos, los cuales analizarem
 ######CONCLUSION:
 	Después de realizar esta encuesta, y las respuesta que nuestro cliente nos dio, pudimos identificar, y cabe mencionar que nuestro cliente también afirmo que, la empresa estaba necesitada de una base de datos que lleve el control de ventas, que esta empresa realiza y las ganancias que obtiene. También identificamos que la empresa mostraba decadencia, en cuanto a sus ventas, por lo que una página web ayudaría a que los clientes pudieran entra a la página, y mediante esta comprarán sus artículos y ellos recibirlos desde sus hogares.
 
-######COMPROMISO:
-Crear una base de datos que registre ventas, y ganancias de la empresa, al igual que crear una página web, para las compras virtuales.
+######COMPROMISOS:
+ 1. Crear una base de datos que registre ventas y ganancias de la empresa con el fin de llevar una mejor organixacion, y resguardar estos datos, para llevar una optima contabilidad.
+
+ 2. Crear un sitio web, donde se encontraran los distintos productos que la empresa tiene en su disposicion, el cual los clientes podran hacer sus compras virtuales. No obstante, esto ayudara a impulsar y expandir la empresa por esta y otras ciudades del pais.
+
 
 ######RESPONSABLE
 Aprendices del centro industrial y de aviación del curso tecnólogo en sistemas, identificados con el número de ficha 2069827.
