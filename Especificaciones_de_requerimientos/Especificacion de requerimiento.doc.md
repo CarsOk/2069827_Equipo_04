@@ -1,5 +1,5 @@
-## BASE DE DATOS Y SITO WED COSTA (BSSWC)
-  ### (proyecto)
+##  sistema centralizado de datos y sitio wed La Costa (S_C_D_S_W_C).
+ ### (Nombre del Proyecto).
 
 ## DISTRIBUSCIONES Y DIDACTICO DE LA COSTA.
 ### (empresa)
@@ -7,7 +7,7 @@
 ## ESPECIFICACION DE REQUERIMIENTOS.
 
 ### 1.	Introducción.
-Sistematizar la forma de organización de información de la empresa con una base de datos, esta será utilizada para el manejo de los datos de la empresa de sus clientes y proveedores, además de brindarle a la empresa una página web, donde posibles clientes se pueden informar de los recursos que pueden conseguir en esta empresa.
+Sistematizar la forma de organización de información de la empresa con una base de datos, esta será utilizada para el manejo de los datos de la empresa de sus clientes y proveedores, además de brindarle a la empresa una página web, donde posibles clientes se pueden informar de los recursos que pueden conseguir en esta empresa
 
 ### 1.1	 Propósito.
 Facilitar al cliente el manejo de su información y dar a conocer el propósito de la empresa por medio de una sitio web la cual tendrá información de la empresa y que funciones realiza, así como mostrar los materiales y herramientas que pueden conseguir por medio esta empresa.
