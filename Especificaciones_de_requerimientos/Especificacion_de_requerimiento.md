@@ -34,9 +34,11 @@ Proporcione una lista de todos los documentos a que hace referencia el SRS.  Ide
 
 ### 1.5	Apreciación Global
 
-•	La sección 1 se enfoca en la explicación, objetivos, metas y descripción del documento.
-•	La sección 2 está orientada, como su nombre lo indica, a la descripción general del sistema, donde la información está orientada al cliente/usuario potencial.
-•	La sección 3 trata sobre los requisitos específicos. Se emplean términos técnicos orientados principalmente a los desarrolladores y programadores.
+*	La sección 1 se enfoca en la explicación, objetivos, metas y descripción del documento.
+
+*	La sección 2 está orientada, como su nombre lo indica, a la descripción general del sistema, donde la información está orientada al cliente/usuario potencial.
+
+*	La sección 3 trata sobre los requisitos específicos. Se emplean términos técnicos orientados principalmente a los desarrolladores y programadores.
 
 
 ## 2. Descripción General.
