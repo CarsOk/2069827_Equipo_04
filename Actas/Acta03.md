@@ -1,6 +1,6 @@
-## ACTA No. 003
+#### ACTA No. 003
 
-# ***ENCUESTA AL CLIENTE***
+### ***ENCUESTA AL CLIENTE***
 
 **CIUDAD Y FECHA:**
 15/05/2020 Barranquilla, Atlántico.
@@ -35,7 +35,7 @@ Luego de varios minutos de conversación, recogimos datos, los cuales analizarem
  2. Crear un sitio web, donde se encontraran los distintos productos que la empresa tiene en su disposicion, el cual los clientes podran hacer sus compras virtuales. No obstante, esto ayudara a impulsar y expandir la empresa por esta y otras ciudades del pais.
 
 
- **RESPONSABLE**
+ **RESPONSABLE:**
 Aprendices del centro industrial y de aviación del curso tecnólogo en sistemas, identificados con el número de ficha 2069827.
 
 **FECHA:**
