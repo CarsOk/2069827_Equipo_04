@@ -1,22 +1,23 @@
-## BASE DE DATOS Y SITO WED COSTA (BSSWC)
-  ### (proyecto)
+## SISTEMA CENTRALIZADO DE DATOS Y SITO WED COSTA (BSSWC).
+### (Nombre del proyecto)
 
-## DISTRIBUSCIONES Y DIDACTICO DE LA COSTA.
-### (empresa)
+## DISTRIBUSCIONES Y DIDACTICOS DE LA COSTA.
+### (Nombre de la empresa)
 
 ## ESPECIFICACION DE REQUERIMIENTOS.
 
 ### 1.	Introducción.
-Sistematizar la forma de organización de información de la empresa con una base de datos, esta será utilizada para el manejo de los datos de la empresa de sus clientes y proveedores, además de brindarle a la empresa una página web, donde posibles clientes se pueden informar de los recursos que pueden conseguir en esta empresa.
+Sistematizar la forma de organización de información de la empresa (Distribuciones y Didacticos De La Costa) con una base de datos, esta será utilizada para el manejo de los datos de la empresa, de sus clientes y proveedores, además de brindarle a la empresa una página web, donde posibles clientes se pueden informar de los recursos que pueden conseguir en esta empresa.
 
 ### 1.1	 Propósito.
-Facilitar al cliente el manejo de su información y dar a conocer el propósito de la empresa por medio de una sitio web la cual tendrá información de la empresa y que funciones realiza, así como mostrar los materiales y herramientas que pueden conseguir por medio esta empresa.
+Facilitar al cliente (Jose Angel Leal Miranda) el manejo de su información y dar a conocer el propósito de la empresa (Distribuciones y Didacticos De La Costa) por medio de una sitio web la cual tendrá información de la empresa y que funciones realiza, así como mostrar los materiales y herramientas que pueden conseguir por medio esta empresa.
 
 ### 1.2	Alcance
 El alcance de este proyecto se centra en el manejo de la información de la empresa, además se le facilitara a los clientes de dicha empresa, el poder investigar los productos que esta empresa les brinda.
 
 ### 1.3	Definiciones, Acrónimos, y Abreviaturas.
 
+ • (B_S_S_W_C)-SISTEMA CENTRALIZADO DE DATOS Y SITO WED COSTA.
  • SIA – Sistema Integral Académico
  • BD – Bases de datos
  • UML– Lenguaje de Modelado Unificado
