@@ -1,4 +1,4 @@
-### Encuesta.
+# Encuesta.
 
 ## Señor(a) Empresario(a):
 
