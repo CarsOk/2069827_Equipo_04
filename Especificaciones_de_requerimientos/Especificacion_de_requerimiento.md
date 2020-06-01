@@ -60,7 +60,7 @@ Este le va facilitar los registros de ventas y ganancias a la empresa y gracias 
 Estos van a poseer la oportunidad de comprar los productos mediante la sitio web que la empresa pondrá a su disposición.
 
 ### 2.4	Restricciones.
-El único problema que presentaríamos seria el no poder terminar este  software n el tiempo estipulado.
+El único problema que presentaríamos seria el no poder terminar este  software en el tiempo estipulado.
 
 ## 2.5	Atención y Dependencias.
 Que los aprendices tengan los conocimientos dignos y necesarios para ellos sepan desarrollar este trabajo y poder entregarlo a la empresa en las mejores condiciones.
