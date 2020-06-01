@@ -49,8 +49,8 @@ Proporcione una lista de todos los documentos a que hace referencia el SRS.  Ide
 ## 2. Descripción General.
 Esta sección describe los factores generales que afectan el producto y sus requerimientos. Esta sección provee un marco general de los requerimientos definidos en detalles en la Sección 3 de este SRS.
 
-### 2.1	Perspectivas del Producto
-Facilitar y conservar en una base de datos todas las compras y ganancias que esta empresa reciba y que tenga un buen impacto con su sitio web.
+### 2.1	Perspectivas del Producto.
+Facilitar y conservar en un software  todas las compras y ganancias que esta empresa reciba y que tenga un buen impacto con su sitio web, ya que los usuarios podran hacer sus comparas mediante este sitio.
 
 ### 2.2 Funciones del Producto.
 Este le va facilitar los registros de ventas y ganancias a la empresa y gracias al sitio web aumentarían las compras por la facilidad que se les brindaría a los usuarios de comprar los productos virtuales.
@@ -60,7 +60,7 @@ Este le va facilitar los registros de ventas y ganancias a la empresa y gracias 
 Estos van a poseer la oportunidad de comprar los productos mediante la sitio web que la empresa pondrá a su disposición.
 
 ### 2.4	Restricciones.
-El único problema que presentaríamos seria el no poder terminar este en el tiempo estipulado.
+El único problema que presentaríamos seria el no poder terminar este  software n el tiempo estipulado.
 
 ## 2.5	Atención y Dependencias.
 Que los aprendices tengan los conocimientos dignos y necesarios para ellos sepan desarrollar este trabajo y poder entregarlo a la empresa en las mejores condiciones.
