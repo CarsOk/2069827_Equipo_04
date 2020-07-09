@@ -1,4 +1,5 @@
-# SISTEMA CENTRALIZADO DE DATOS Y SITO WED COSTA (BSSWC).
+
+# ANÁLISIS, DISEÑO, DESARROLLO E IMPLEMENTACIÓN DE UNA PAGINA WEB PARA LA EMPRESA DISTRUBUCIONES Y DIDACTICOS DE LA COSTA (PAWEDIDCOS).
 ### (Nombre del proyecto)
 
 ## DISTRIBUSCIONES Y DIDACTICOS DE LA COSTA.
@@ -13,27 +14,28 @@
 Sistematizar la forma de organización de información de la empresa (Distribuciones y Didacticos De La Costa) con un software, este será utilizado para el manejo de los datos de la empresa, de sus clientes y proveedores, además de brindarle a la empresa un sitio web, donde posibles clientes se pueden informar de los recursos que pueden conseguir en esta empresa y comparlos mediante este.
 
 ### 1.1	 Propósito.
-Facilitar al cliente (Jose Angel Leal Miranda) el manejo de su información y dar a conocer el propósito de la empresa (Distribuciones y Didacticos De La Costa) por medio de una sitio web la cual tendrá información de la empresa y que funciones realiza, así como mostrar los materiales y herramientas que pueden conseguir por medio esta empresa.
+Facilitar a la empresa DIstribuciones y didacticos de la costa, el manejo de su información y dar a conocer el propósito de la empresa, por medio de una sitio web la cual tendrá información de la empresa y que funciones realiza, así como mostrar los materiales y herramientas que pueden conseguir por medio esta empresa.
 
 ### 1.2	Alcance.
 
-* Se le hara entrega a nuestro cliente, un software que le registrara las ventas y ganacias que su empresa obtenga.
-
-* la empresa sera la respondable de guardar o reistrar los datos de la misma en el software.
-
-* se le dara una inducion a los empleados de la empresa para estos tengan un manejo del software.
-
-* se les entregara un sitio web para que esta empresa publique los productos que tiene a la venta.
+el sistema seria un sitio web que le permitira a la empresa, vender sus productos de fotma virtual. Se le hara entrega a nuestro cliente, un software que le permitira verder sus productos mediante una pagina web y que este registrara las ventas y ganacias que su empresa obtenga, donde la empresa sera la respondable de guardar o reistrar los datos de la misma en el software.
+la empresa podra publicar sus productos en el sitio y los clientes podran registrarse en este sitio web, digitando sus datos personales y poder hacer sus compras.
+.
 
 ### 1.3	Definiciones, Acrónimos, y Abreviaturas.
 
  * (B_S_S_W_C)-SISTEMA CENTRALIZADO DE DATOS Y SITO WED COSTA.
- * SIA – Sistema Integral Académico.
- * BD – Bases de datos.
- * UML– Lenguaje de Modelado Unificado.
- * IEEE – Institute of Electrical and Electronics Engineers.
- * Sistema ABC –Sistema altas, bajas y consultas.
- * SEP – Secretaría de Educación Pública.
+ * SIA – Sistema Integral Académico - es una herramienta que tiene como finalidad orientar, fortalecer, direccionar y alinear los Sistemas de Gestión de manera conjunta con la dirección estratégica de la empresa.
+ * BD – Bases de datos- Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso
+ * UML– Lenguaje de Modelado Unificado- Se trata de un estándar que se ha adoptado a nivel internacional por numerosos organismos y empresas para crear esquemas, diagramas y documentación relativa a los desarrollos de software (programas informáticos).
+ * Requerimientos funcionales (RF): describen las capacidades o funciones que el sistema será capaz de realizar.
+
+ * Requerimientos no funcionales (RNF): restricciones o características que de delimitan el sistema, como por ejemplo, rendimiento, interfaces de usuario, fiabilidad, seguridad, portabilidad, normas, entre otros.
+
+ * Requerimientos de interfaz de usuario (RIU): describen lo que el usuario vera finalmente.
+
+ * Sistema Web: también conocido como “aplicación Web” son aquellos que están creados e instalados no sobre una plataforma o sistemas operativos  (Windows, Linux). Sino que se aloja en un servidor en Internet o sobre una intranet (red local).
+
 
 ### 1.4	Referencias.
 Proporcione una lista de todos los documentos a que hace referencia el SRS.  Identifique cada documento por título, número de reporte (cuando aplica), fecha, organización que publica. Especificar las fuentes den donde se obtuvieron las referencias. Puede referenciar a un Apéndice u otro documento.
@@ -57,13 +59,15 @@ Este le va facilitar los registros de ventas y ganancias a la empresa y gracias 
 
 
 ### 2.3	Características de Usuario.
-Estos van a poseer la oportunidad de comprar los productos mediante la sitio web que la empresa pondrá a su disposición.
+En el caso de la empresa, los distintuos usuarios que la amnejen, estaran publicando productos de acuerdo a las necesidades y al pendiente de los pedidios que le realicen a la empresa. Por otro lado, los usuarios que deseen comprar en esta pagina, tengran que poseer de internte para que se registren y puedan realizar sus compras.
 
 ### 2.4	Restricciones.
-El único problema que presentaríamos seria el no poder terminar este  software en el tiempo estipulado.
+Para este sistema las posibles restricciones son el tiempo que tomará el desarrollo de este, recursos donde se implantara el sistema, el nivel del lenguaje programación para los desarrolladores.
+
+Es de suma importancia que los usuarios se registren en el sitio web y registren sus datos para que estos puedan realizar sus compras y se quede registrado estos datos en la base de datos. Que tengan interntet disponible para poder ingresar al respectivo sitio web.
 
 ## 2.5	Atención y Dependencias.
-Que los aprendices tengan los conocimientos dignos y necesarios para ellos sepan desarrollar este trabajo y poder entregarlo a la empresa en las mejores condiciones.
+Este software le facilitara comercializar sus distintos productos por medio web, los clientes podran visitar la pagina y conocer todos los elementos que estan a al venta y realizar sus respectiva compra. Gracias a este sitio, la empresa podra distribuir sus productos por todo la ciudad y darse a conocer en otras.
 
 ### 3.	Requerimientos Específicos
 En esta sección se tienen con más detalle los requerimientos específicos del sistema a desarrollar.
@@ -281,7 +285,3 @@ El usuario del sistema podrá realizar consultar dudas en un manual de ayuda par
 
 ###Efecto Colateral:
 NINGUNO.
-
-
-## 3.2 Requerimientos No Funcionales
-Identificamos en la empresa  le seria de utilidad mostrarse en el mundo Web.Ademas esto ayudaria a impulsar sus ventas y poder expandirse al rededor de la ciudad.
