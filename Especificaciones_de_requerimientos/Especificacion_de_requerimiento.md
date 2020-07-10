@@ -69,217 +69,272 @@ Que los aprendices tengan los conocimientos dignos y necesarios para ellos sepan
 En esta sección se tienen con más detalle los requerimientos específicos del sistema a desarrollar.
 
 ## 3.1	Requerimientos Funcionales:
-###Código: RF-001
-###Nombre: MÓDULO DE LOGIN DE ADMINISTRADOR 	
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTO
+### Código: RF-001
+### Nombre: MÓDULO DE LOGIN DE ADMINISTRADOR 	
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTO
 
-###Descripción:
+### Descripción:
 Al sistema solo accederá personal autorizado mediante roles asignados.
 
 Entradas: Datos personales (Usuario y contraseña).
+ 
 Fuente: Base de datos.
+ 
 Salida: Interfaz Menú principal.
+ 
 Destino: Interfaz de Menú Principal	.
+ 
 Restricciones:  Solo se accederá a ciertos módulos del sistema según el rol del usuario.
 
-###Proceso
+### Proceso
 • Ingresar nombre y contraseña de usuario para Iniciar sesión.
-*Cabe aclarar que el usuario previamente se encuentra registrado en la base de datos del sistema*
+ 
+**Cabe aclarar que el usuario previamente se encuentra registrado en la base de datos del sistema*
+ 
 • Este Login No contará con opciones de recuperación de contraseña.
-
-###Efecto Colateral:
+ 
+### Efecto Colateral:
 Errar la contraseña o nombre de usuario niega el ingresó a la aplicación web, teniendo un límite de cinco (5) intentos.
 
-###Código: RF-002
-###Nombre: REGISTRO TRABAJADOR. 	
-###Fecha: 07-07-2020
-###Grado Necesidad: MEDIO.
+### Código: RF-002
+### Nombre: REGISTRO TRABAJADOR. 	
+### Fecha: 07-07-2020
+### Grado Necesidad: MEDIO.
 
-###Descripción:
+### Descripción:
 El sistema debe permitir el registro de usuarios, asignándoles un rol (Administrador-trabajador), estos usuarios son quienes harán uso de las funcionalidades del sistema.
 
 Entradas: Datos personales: Identificación, Nombres, Apellidos
+  
 Fuente: Formulario de Registro para trabajadores.
+ 
 Salida: Registro satisfactorio
+ 
 Destino: Base de Datos.
+ 
 Restricciones:  Un usuario tiene únicamente un rol.
 
-###Proceso
-•	Recolección datos básicos personales (nombre, apellido, celular)
-•	Registro satisfactorio del usuario.
-*Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los usuarios que tendrán el rol de trabajador.
-Los usuarios que deseen hacer el registro tienen que ser trabajadores de la empresa.*
+### Proceso.
+•	Recolección datos básicos personales (nombre, apellido, celular).
+  
+ •Registro satisfactorio del usuario
+  
+ **Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los usuarios que tendrán el rol de trabajador. 
+Los usuarios que deseen hacer el registro tienen que ser trabajadores de la empresa. *
 
-###Efecto Colateral:
+### Efecto Colateral:
 Los usuarios que tenga el rol de trabajador no tendrán acceso a todas las funcionalidades del sistema.
 Una vez el trabajador sea despedido debe ser eliminado de la base de datos.
 
-###Código: RF-003
-###Nombre: REGISTRO DE PRODUCTOS.
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-003
+### Nombre: REGISTRO DE PRODUCTOS.
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 El sistema debe permitir el registro de los productos que se encuentren disponibles.
 
 Entradas: Datos del producto: Código, Nombre, Cantidad, Proveedor
+ 
 Fuente:	Formulario de Registro de producto.
+ 
 Salida: Registro del producto.
-Destino: Base de Datos.
+ 
+Destino: Base de Datos. 
+ 
 Restricciones:  NINGUNO.
 
-###Proceso:
+### Proceso:
 • Recolección datos del producto (nombre, código, cantidad, etc.).
+ 
 • Agregar categoría de producto.
+ 
 • Registro satisfactorio del producto en la base de datos.
-*Una vez este registrado el producto solo será necesario tener en cuenta la cantidad de producto que se encuentre en el stock, y la información del proveedor.*
+ 
+  **Una vez este registrado el producto solo será necesario tener en cuenta la cantidad de producto que se encuentre en el stock, y la información del proveedor.*
 
-###Efecto Colateral:
+### Efecto Colateral:
 Relacionar información con el módulo de producto.
 
-###Código: RF-004
-###Nombre: REGISTRO DE PROVEEDORES.
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-004
+### Nombre: REGISTRO DE PROVEEDORES.
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 El sistema debe permitir el registro de los proveedores que surtan a la empresa de los productos.
 
 Entradas: Datos del proveedor: Nombre, Identificación, Teléfono, Dirección.
+ 
 Fuente:	Formulario de registro de los proveedores.
-Salida: Proveedor registrado.
+ 
+Salida: Proveedor registrado. 
+ 
 Destino: Base de Datos.
+ 
 Restricciones:  N/A
 
-###Proceso:
-• Recolección datos del proveedor (nombre, identificación, teléfono, etc.).
+### Proceso:
+• Recolección datos del proveedor (nombre, identificación, teléfono, etc.).}
+ 
 • Registro satisfactorio del proveedor.
 
-###Efecto Colateral:
+### Efecto Colateral:
 Relacionar información con el módulo proveedor.
 
-###Código: RF-005
-###Nombre: ANALISIS DE STOCK DE PRODUCTOS.
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-005
+### Nombre: ANALISIS DE STOCK DE PRODUCTOS.
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 El sistema deberá realizar un análisis de la cantidad de productos que se encuentren disponibles y actualizar la información en la base de datos.
 
-###Proceso:
+### Proceso:
 • Análisis de la cantidad de productos disponibles.
+ 
 • Actualización de información en la base de datos.
-*Si el sistema detecta que la cantidad de producto es igual a cero (0), se enviara un mensaje de aviso a los trabajadores.*
+ 
+**Si el sistema detecta que la cantidad de producto es igual a cero (0), se enviara un mensaje de aviso a los trabajadores.*
 
-###Efecto Colateral:
+### Efecto Colateral:
 Se relacionará la información actualizada con la información anterior e identificará si un producto está agotado o sigue disponible.
 
-###Código: RF-006
-###Nombre: REGISTRO DE SOLICITUDES.
-###Fecha: 07-07-2020
-###Grado Necesidad: MEDIO.
+### Código: RF-006
+### Nombre: REGISTRO DE SOLICITUDES.
+### Fecha: 07-07-2020
+### Grado Necesidad: MEDIO.
 
-###Descripción:
+### Descripción:
 Los clientes podrán indicar sus peticiones y quejas referentes a cualquier inconveniente que se presente con alguna de sus compras.
 
 Entradas: Descripción de Anotación o queja.
+ 
 Fuente:	Formulario para el registro de las solicitudes.
+ 
 Salida: Registro de la solicitud.
+ 
 Destino: Base de Datos.
+ 
 Restricciones:  NINGUNA
 
-###Proceso:
+### Proceso:
 • El usuario debe registrar el inconveniente con su compra.
+ 
 • Exponer su Solicitud o reclamo.
 
-###Efecto Colateral:
+### Efecto Colateral:
 NINGUNO.
 
-###Código: RF-007
-###Nombre: SELECCIÓN DE PRODUCTOS DE LA PAGINA PRINCIPAR.
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-007
+### Nombre: SELECCIÓN DE PRODUCTOS DE LA PAGINA PRINCIPAR.
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 El cliente podrá seleccionar los productos a los que está interesado y estos se agregaran a un formulario de compra.
 
 Entradas: El cliente ingresa a la página principal y selecciona el producto que le interese.
+
 Fuente:	Página principal.
+
 Salida: Formulario de compra.
+
 Destino: Base de Datos.
+
 Restricciones:  Si el cliente se sale de la página el formulario no se guardará en la base de datos.
 
-###Proceso:
+### Proceso:
 • El cliente selecciona los productos que le interese del sistema (y que esté disponible).
+
 • Una vez haya seleccionado todos los productos se envía al cliente a realizar el formulario de compra.
 
-###Efecto Colateral:
+### Efecto Colateral:
 Se redirecciona al cliente al formulario de compra.
 
-###Código: RF-008
-###Nombre: FORMULARIO DE COMPRA
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-008
+### Nombre: FORMULARIO DE COMPRA
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 El formulario de compra contendrá la información de los productos que solicita el cliente en la compra, así como la información del cliente e información de formas de pago.
 
-Entradas: Se solicita la información de producto: Códigos de productos, Cantidad.
+Entradas:
+
+Se solicita la información de producto: Códigos de productos, Cantidad. 
+
 Se solicita la información del cliente: Tipo (persona o entidad), Dirección, Nombre, Teléfono, Información de forma de pago.
+
 Fuente: Formulario de compra.
+
 Salida: Formulario de compra ha sido registrado.
+
 Destino: Base de Datos.
+
 Restricciones: N/A
 
-###Proceso:
-• Recolección datos ingresados por el cliente.
-• Se envía el formulario de compra.
-*Si el cliente cancela la compra se bórrala el formulario de compra de la base de datos*
+### Proceso:
+• Recolección datos ingresados por el cliente. 
 
-###Efecto Colateral:
+• Se envía el formulario de compra.
+
+**Si el cliente cancela la compra se bórrala el formulario de compra de la base de datos*
+
+### Efecto Colateral:
 El cliente recibe un mensaje de “compra exitosa”.
 
-###Código: RF-009
-###Nombre: INFORME FINANCIERO.
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-009
+### Nombre: INFORME FINANCIERO.
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 Generar informes respectivos de las actividades financieras de la página (dinero ganado, dinero destinado a los suministros, etc.…)
 
 Entradas: Análisis de las actividades financieras (Compras, Ventas, etc.…).
+
 Fuente: Base de datos.
+
 Salida: Actualización de información.
+
 Destino: Base de Datos.
+
 Restricciones:  Los usuarios con el rol trabajador no podrán ingresar a esta información.
 
-###Proceso:
+### Proceso:
 • Análisis de las actividades financieras (Compras, Ventas, etc.).
-• Actualización de información en la base de datos.
-*Solo el administrador tiene acceso a esta información.*
 
-###Efecto Colateral:
+• Actualización de información en la base de datos.
+
+**Solo el administrador tiene acceso a esta información.*
+
+### Efecto Colateral:
 NINGUNO.
 
-###Código: RF-010
-###Nombre: AYUDA
-###Fecha: 07-07-2020
-###Grado Necesidad: ALTA.
+### Código: RF-010
+### Nombre: AYUDA
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
 
-###Descripción:
+### Descripción:
 El sistema tendrá un botón que permitirá que re direccionara a un archivo PDF donde se hallará información de ayuda.
 
-Entradas:
-Fuente:	Archivo PDF:
+Entradas:Duda, pregunta del usuario.
+
+Fuente:	Archivo PDF.
+
 Salida: Nueva pestaña con el PDF.
+
 Destino: Nueva pestaña con el PDF.
+
 Restricciones:  NINGUNA
 
-###Proceso:
+### Proceso:
 El usuario del sistema podrá realizar consultar dudas en un manual de ayuda para saber cómo ejecutar una funcionalidad del sistema.
 
-###Efecto Colateral:
+### Efecto Colateral:
 NINGUNO.
 
 
