@@ -346,5 +346,68 @@ El usuario del sistema podrá realizar consultar dudas en un manual de ayuda par
 NINGUNO.
 
 
-## 3.2 Requerimientos No Funcionales
-Identificamos en la empresa  le seria de utilidad mostrarse en el mundo Web.Ademas esto ayudaria a impulsar sus ventas y poder expandirse al rededor de la ciudad.
+## 3.2 Requerimientos No Funcionales:
+
+### Código: RFN-001
+### Nombre: DESEMPEÑO
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+	El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible.
+Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.
+
+
+### Código: RFN-002
+### Nombre: SEGURIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+La seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña, y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.
+
+
+### Código: RFN-003
+### Nombre: USABILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.
+
+
+### Código: RFN-004
+### Nombre: DISPONIBILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+la disponibilidad del sietema,depende de la empresa. Que donde se haya alojado el sistema este en funcionamiento en los horarios de atencion de la empresa.
+
+
+### Código: RFN-005
+### Nombre: FIABILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.
+
+
+### Código: RFN-006
+### Nombre: MANTENIBILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+Se debe realizar mantenimiento preventivo ya que es de gran importancia para verificar el buen desarrollo de las actividades o procesos del sistema. El sistema deberá tener la capacidad de recuperarse en lo posible frente a los posibles fallos que puedan presentarse.
+
+
+### Código: RFN-007
+### Nombre: PORTABILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+ Podemos asegurar que el sistema será totalmente portable en cuanto a sistemas operativos, ya que este sistema funcionará desde un navegador, bien sea Google Chrome o Mozilla Firefox deberá de funcionar adecuadamente.  
+Sin embargo se recomienda el uso del navegador Google Chrome.
