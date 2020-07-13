@@ -15,4 +15,4 @@ Sistema centtralizado De Datos y Sitio Web Costa (S_C_D_S_W_C).
 
 ## 3. Especificaciones de requerimiento.
 
-   3.1 [especificaciones de requerimientos](https://github.com/CarsOk/2069827_Equipo_04/commit/7e532f83465c91fe09734b7870da61eadc52192e)
+   3.1 [especificaciones de requerimientos](https://github.com/CarsOk/2069827_Equipo_04/blob/master/Especificaciones_de_requerimientos/Especificacion_de_requerimiento.md)
