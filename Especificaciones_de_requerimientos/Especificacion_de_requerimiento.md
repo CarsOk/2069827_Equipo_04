@@ -78,22 +78,22 @@ En esta sección se tienen con más detalle los requerimientos específicos del 
 Al sistema solo accederá personal autorizado mediante roles asignados.
 
 Entradas: Datos personales (Usuario y contraseña).
- 
+
 Fuente: Base de datos.
- 
+
 Salida: Interfaz Menú principal.
- 
+
 Destino: Interfaz de Menú Principal	.
- 
+
 Restricciones:  Solo se accederá a ciertos módulos del sistema según el rol del usuario.
 
 ### Proceso
 • Ingresar nombre y contraseña de usuario para Iniciar sesión.
- 
+
 **Cabe aclarar que el usuario previamente se encuentra registrado en la base de datos del sistema*
- 
+
 • Este Login No contará con opciones de recuperación de contraseña.
- 
+
 ### Efecto Colateral:
 Errar la contraseña o nombre de usuario niega el ingresó a la aplicación web, teniendo un límite de cinco (5) intentos.
 
@@ -106,21 +106,21 @@ Errar la contraseña o nombre de usuario niega el ingresó a la aplicación web,
 El sistema debe permitir el registro de usuarios, asignándoles un rol (Administrador-trabajador), estos usuarios son quienes harán uso de las funcionalidades del sistema.
 
 Entradas: Datos personales: Identificación, Nombres, Apellidos
-  
+
 Fuente: Formulario de Registro para trabajadores.
- 
+
 Salida: Registro satisfactorio
- 
+
 Destino: Base de Datos.
- 
+
 Restricciones:  Un usuario tiene únicamente un rol.
 
 ### Proceso.
 •	Recolección datos básicos personales (nombre, apellido, celular).
-  
+
  •Registro satisfactorio del usuario
-  
- **Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los usuarios que tendrán el rol de trabajador. 
+
+ **Solo los usuarios que tengan el Rol de Administrador podrán hacer el registro de los usuarios que tendrán el rol de trabajador.
 Los usuarios que deseen hacer el registro tienen que ser trabajadores de la empresa. *
 
 ### Efecto Colateral:
@@ -136,22 +136,22 @@ Una vez el trabajador sea despedido debe ser eliminado de la base de datos.
 El sistema debe permitir el registro de los productos que se encuentren disponibles.
 
 Entradas: Datos del producto: Código, Nombre, Cantidad, Proveedor
- 
+
 Fuente:	Formulario de Registro de producto.
- 
+
 Salida: Registro del producto.
- 
-Destino: Base de Datos. 
- 
+
+Destino: Base de Datos.
+
 Restricciones:  NINGUNO.
 
 ### Proceso:
 • Recolección datos del producto (nombre, código, cantidad, etc.).
- 
+
 • Agregar categoría de producto.
- 
+
 • Registro satisfactorio del producto en la base de datos.
- 
+
   **Una vez este registrado el producto solo será necesario tener en cuenta la cantidad de producto que se encuentre en el stock, y la información del proveedor.*
 
 ### Efecto Colateral:
@@ -166,18 +166,18 @@ Relacionar información con el módulo de producto.
 El sistema debe permitir el registro de los proveedores que surtan a la empresa de los productos.
 
 Entradas: Datos del proveedor: Nombre, Identificación, Teléfono, Dirección.
- 
+
 Fuente:	Formulario de registro de los proveedores.
- 
-Salida: Proveedor registrado. 
- 
+
+Salida: Proveedor registrado.
+
 Destino: Base de Datos.
- 
+
 Restricciones:  N/A
 
 ### Proceso:
 • Recolección datos del proveedor (nombre, identificación, teléfono, etc.).}
- 
+
 • Registro satisfactorio del proveedor.
 
 ### Efecto Colateral:
@@ -193,9 +193,9 @@ El sistema deberá realizar un análisis de la cantidad de productos que se encu
 
 ### Proceso:
 • Análisis de la cantidad de productos disponibles.
- 
+
 • Actualización de información en la base de datos.
- 
+
 **Si el sistema detecta que la cantidad de producto es igual a cero (0), se enviara un mensaje de aviso a los trabajadores.*
 
 ### Efecto Colateral:
@@ -210,18 +210,18 @@ Se relacionará la información actualizada con la información anterior e ident
 Los clientes podrán indicar sus peticiones y quejas referentes a cualquier inconveniente que se presente con alguna de sus compras.
 
 Entradas: Descripción de Anotación o queja.
- 
+
 Fuente:	Formulario para el registro de las solicitudes.
- 
+
 Salida: Registro de la solicitud.
- 
+
 Destino: Base de Datos.
- 
+
 Restricciones:  NINGUNA
 
 ### Proceso:
 • El usuario debe registrar el inconveniente con su compra.
- 
+
 • Exponer su Solicitud o reclamo.
 
 ### Efecto Colateral:
@@ -263,7 +263,7 @@ El formulario de compra contendrá la información de los productos que solicita
 
 Entradas:
 
-Se solicita la información de producto: Códigos de productos, Cantidad. 
+Se solicita la información de producto: Códigos de productos, Cantidad.
 
 Se solicita la información del cliente: Tipo (persona o entidad), Dirección, Nombre, Teléfono, Información de forma de pago.
 
@@ -276,7 +276,7 @@ Destino: Base de Datos.
 Restricciones: N/A
 
 ### Proceso:
-• Recolección datos ingresados por el cliente. 
+• Recolección datos ingresados por el cliente.
 
 • Se envía el formulario de compra.
 
@@ -338,5 +338,68 @@ El usuario del sistema podrá realizar consultar dudas en un manual de ayuda par
 NINGUNO.
 
 
-## 3.2 Requerimientos No Funcionales
-Identificamos en la empresa  le seria de utilidad mostrarse en el mundo Web.Ademas esto ayudaria a impulsar sus ventas y poder expandirse al rededor de la ciudad.
+## 3.2 Requerimientos No Funcionales:
+
+### Código: RFN-001
+### Nombre: DESEMPEÑO
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+	El tiempo de respuesta y la duración de las opciones funcionales del software será lo más rápido posible.
+Por tanto el nivel de servicios requerido es tal que el sistema información con el tiempo no sufra una disminución en su desempeño (degradación) respecto al nivel previo al de la puesta en producción.
+
+
+### Código: RFN-002
+### Nombre: SEGURIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+La seguridad prima en cualquier sistema es por esto que para aplicar esta se hará uso de una contraseña, y usuario único con un rol, lo cual permite controlar el acceso a la información alojada.
+
+
+### Código: RFN-003
+### Nombre: USABILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+El software deberá ser lo suficientemente fácil de manejar por el usuario, es decir este último podrá hacer todas las operaciones del sistema sin ningún problema, sin embargo, cualquier duda que surja podrá ser consultada en la “Ayuda”.
+
+
+### Código: RFN-004
+### Nombre: DISPONIBILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+la disponibilidad del sietema,depende de la empresa. Que donde se haya alojado el sistema este en funcionamiento en los horarios de atencion de la empresa.
+
+
+### Código: RFN-005
+### Nombre: FIABILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+La definimos como la probabilidad de que este producto funcione sin fallos durante un lapso estimado de un (1 año) sin recibir un mantenimiento correctivo.
+
+
+### Código: RFN-006
+### Nombre: MANTENIBILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+Se debe realizar mantenimiento preventivo ya que es de gran importancia para verificar el buen desarrollo de las actividades o procesos del sistema. El sistema deberá tener la capacidad de recuperarse en lo posible frente a los posibles fallos que puedan presentarse.
+
+
+### Código: RFN-007
+### Nombre: PORTABILIDAD
+### Fecha: 07-07-2020
+### Grado Necesidad: ALTA.
+
+### Descripción:
+ Podemos asegurar que el sistema será totalmente portable en cuanto a sistemas operativos, ya que este sistema funcionará desde un navegador, bien sea Google Chrome o Mozilla Firefox deberá de funcionar adecuadamente.  
+Sin embargo se recomienda el uso del navegador Google Chrome.
